@@ -1,0 +1,7 @@
+{
+  "name": "unionavatars",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
