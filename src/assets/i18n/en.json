@@ -1,0 +1,20 @@
+{
+    "TAKE_A_SELFIE": "Take a Selfie",
+    "CANCELLED_USER_PHOTO" : "You need to take a picture for this to work",
+    "UNKNOWN_ERROR" : "Well, this is embarrasing, an UNKNOWN_ERROR has been detected. Not the best for this job application",
+    "READY" : "Ready to create your own avatar?",
+    "CALCULATING_PLEASE_WAIT" : "We are creating your avatar, please wait while our system does the magic",
+    "BODIES_LOADED" :"Bodies have been loaded from endpoint. App is ready",
+    "AVATAR_RECEIVED" : "Your avatar has been generated.",
+    "WAITING" : [
+        "Transfering image to server",
+        "Creating associated consciousness",
+        "Creating inner tissues",
+        "Tesselating result",
+        "Waking digital consciousness up",
+        "Applying colours and skins",
+        "Disabling associated avatar consciousness",
+        "Removing consciousness from avatar",
+        "Transfering avatar to you"
+    ]
+}

@@ -1,0 +1,41 @@
+<div class="camera-container">
+    <ion-button (click)="takePicture()">{{ 'TAKE_A_SELFIE' | translate }}</ion-button>
+</div>
+<div *ngIf="!photo" id="info-container">
+    <strong>{{ 'READY' | translate }}</strong>
+    <p>Of course, avatar myself!</p>
+    <img class="logo-image" src="https://unionavatars.com/wp-content/uploads/2023/01/Logo_Union_Avatars_White.png" title="Union Avatars Logo white">
+</div>
+
+<model-viewer *ngIf="avatar"
+  camera-controls
+  camera-orbit="45deg 55deg 2.5m"
+  [attr.src]="avatar"
+  alt="A 3D model by Union Avatars - DEMO"
+  data-js-focus-visible=""
+  ar-status="not-presenting"
+>
+</model-viewer>
+
+<div *ngIf="photo" id="image-container">
+    <img [src]="photo.dataUrl"  id="image-placeholder"  title="image">
+    <img [src]="filteredImage"  id="image-filtered"  title="image">
+</div>
+<div *ngIf="photo" id="text-container">
+    <p> {{ 'CALCULATING_PLEASE_WAIT' | translate }}</p>
+    <div class="center">
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+      </div>
+</div>
+
+
+

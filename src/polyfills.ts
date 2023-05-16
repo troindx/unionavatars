@@ -53,3 +53,8 @@ import 'zone.js';  // Included with Angular CLI.
 /***************************************************************************************************
  * APPLICATION IMPORTS
  */
+
+/**
+ * Import @google/model-viewer must be there to model-viewer run in stackblitz.
+ */
+import '@google/model-viewer';
